@@ -1,5 +1,4 @@
-input[type='text'],
-input[type='number'] {
+input[type='text'] {
     min-width: 272px;
     height: 40px;
     padding-left: 16px;
@@ -17,9 +16,7 @@ input[type='number'] {
 }
 
 input[type='text']:hover,
-input[type='text']:focus,
-input[type='number']:hover,
-input[type='number']:focus {
+input[type='text']:focus {
     border-color: #000;
 }
 
@@ -33,9 +30,6 @@ input[type='text']:disabled {
     border-color: #808080;
 }
 
-input[type='number']:focus-within {
-    border-color: #4e75ff;
-}
 
 button {
     min-width: 75px;
