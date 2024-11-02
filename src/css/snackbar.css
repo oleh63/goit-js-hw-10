@@ -1,4 +1,8 @@
-
+.iziToast {
+    right: 20px !important;
+    top: 20px !important;
+    position: fixed !important;
+}
 .form {
     display: flex;
     flex-direction: column;
