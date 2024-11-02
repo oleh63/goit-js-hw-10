@@ -1,10 +1,10 @@
-form {
+
+.form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
 .label-input-number {
     display: flex;
     flex-direction: column;
@@ -17,20 +17,57 @@ form {
 
 input[type='number'] {
     width: 360px;
+    padding: 8px 16px;
+    margin: 0;
+    box-sizing: border-box;
     height: 40px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 1px solid rgba(128, 128, 128, 1)
+    border: 1px solid rgba(128, 128, 128, 1);
 }
 
 input[type='number']:hover {
-    border: 1px solid rgba(0, 0, 0, 1)
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+input[type='number']:focus {
+    border: 1px solid rgba(78, 117, 255, 1);
+}
+input[type='number']:active {
+    border: 1px solid rgba(78, 117, 255, 1);
 }
 
 fieldset {
     width: 360px;
-    height: 64px;
+    padding: 24px 48px 8px 28px;
+    margin: 0;
+    box-sizing: border-box;
+    height: auto;
     border-radius: 4px;
+    margin-bottom: 24px;
+}
+
+fieldset:hover {
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+legend {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+}
+
+form button {
+    width: 360px;
+    background-color: rgba(78, 117, 255, 1);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+
 }
 
 
